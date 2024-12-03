@@ -156,7 +156,15 @@ class CardDetailsVC: UIViewController {
 
             let maxTranslation: CGFloat = 140
             let minCornerRadius: CGFloat = 10
-            let maxCornerRadius: CGFloat = 44
+            var maxCornerRadius: CGFloat = 44
+            
+            if DeviceUtility.deviceHasTopNotch == true {
+                maxCornerRadius = 44
+            }
+            else {
+                maxCornerRadius = 20
+            }
+            
             let progress = min(translation.y / maxTranslation, 1.0)
             let cornerRadius = maxCornerRadius - progress * (maxCornerRadius - minCornerRadius)
             self.detailsView.layer.cornerRadius = cornerRadius

@@ -48,7 +48,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVD-lD-8Np">
-                                <rect key="frame" x="10" y="744" width="373" height="74"/>
+                                <rect key="frame" x="10" y="734" width="373" height="74"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="l1N-tI-azx">
                                     <rect key="frame" x="0.0" y="0.0" width="373" height="74"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,9 +114,9 @@
                         <viewLayoutGuide key="safeArea" id="8z5-fh-9cS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="YVD-lD-8Np" firstAttribute="bottom" secondItem="8z5-fh-9cS" secondAttribute="bottom" id="dSd-Dx-I07"/>
                             <constraint firstItem="YVD-lD-8Np" firstAttribute="leading" secondItem="8z5-fh-9cS" secondAttribute="leading" constant="10" id="tMK-xM-H3H"/>
                             <constraint firstItem="8z5-fh-9cS" firstAttribute="trailing" secondItem="YVD-lD-8Np" secondAttribute="trailing" constant="10" id="tnc-iA-EK3"/>
+                            <constraint firstItem="8z5-fh-9cS" firstAttribute="bottom" secondItem="YVD-lD-8Np" secondAttribute="bottom" constant="10" id="zWM-rV-Sco"/>
                         </constraints>
                     </view>
                     <connections>
